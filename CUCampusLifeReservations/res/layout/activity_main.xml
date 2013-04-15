@@ -1,0 +1,65 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/homepage_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="30dp"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="5dp" >
+
+    <Button
+        android:id="@+id/create_login_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/create_login_button_label" />
+
+    <Button
+        android:id="@+id/reservation_button"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="@string/create_reservation_button_label" />
+
+    <Button
+        android:id="@+id/view_reservations_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/view_reservations_button_label" />
+
+    <Button
+        android:id="@+id/view_forms_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/view_forms_button_label" />
+
+    <Button
+        android:id="@+id/contact_cu_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/contact_cu_button_label" />
+
+    <Button
+        android:id="@+id/view_policies_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_policy_button_label" />
+
+    <Button
+        android:id="@+id/get_directions_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/get_directions_button_label" />
+
+    <Button
+        android:id="@+id/hendrix_hours_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/get_hours_button_label" />
+
+</TableLayout>

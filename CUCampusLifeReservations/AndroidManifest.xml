@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.loiseauelegante.reservations"
+    android:versionCode="3"
+    android:versionName="2.01" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/guest_services_photo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.loiseauelegante.reservations.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.CreateActivity"
+            android:label="@string/title_activity_create" >
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.OranizationsActivity"
+            android:label="@string/title_activity_oranizations"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.OrganizationsActivity"
+            android:label="@string/title_activity_organizations"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.ContactActivity"
+            android:label="@string/title_activity_contact"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.SolicitationActivity"
+            android:label="@string/title_activity_solicitation"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.DirectionsActivity"
+            android:label="@string/title_activity_directions"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.PoliciesActivity"
+            android:label="@string/title_activity_policies"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.loiseauelegante.reservations.ViewReservationsActivity"
+            android:label="@string/title_activity_view_reservations"
+            android:parentActivityName="com.loiseauelegante.reservations.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.loiseau.cureservations.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

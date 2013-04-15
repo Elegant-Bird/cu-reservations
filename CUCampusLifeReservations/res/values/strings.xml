@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CU Campus Life Reservations</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_org_instructions">Selected Org. Will Appear Here</string>
+    <string name="create_login_button_label">Create Login Information</string>
+    <string name="create_reservation_button_label">Create Reservation</string>
+    <string name="view_reservations_button_label">View Created Reservations</string>
+    <string name="view_forms_button_label">View Sales and Use Forms</string>
+    <string name="contact_cu_button_label">Contact Campus Life</string>
+    <string name="view_policy_button_label">View Reservation and Usage Policy</string>
+    <string name="get_directions_button_label">Get Directions to Hendrix</string>
+    <string name="get_hours_button_label">Hendrix Building Hours</string>
+    <string name="title_activity_create">Submit a New Reservation</string>
+    <string name="title_equipment">Equipment</string>
+    <string name="title_furniture">Furniture</string>
+    <string name="title_event">Event Information</string>
+    <string name="title_cupd">Sales and Solicitation</string>
+    <string name="title_confirmation">Confirmation</string>
+    <string name="title_organization">Organization</string>
+    <string name="title_activity_oranizations">Organizations</string>
+    <string name="title_activity_organizations">Organzations</string>
+
+    <string-array name="Locations_List">
+        <item>Sales and Solicitation</item>
+        <item>HSC Ballroom A</item>
+        <item>HSC Ballroom B</item>
+        <item>HSC Meeting Room A</item>
+        <item>HSC Meeting Room B</item>
+        <item>David Peebles (Fishbowl)</item>
+        <item>HSC 212 Conference Room</item>
+        <item>Media Conference Room (3rd Floor)</item>
+        <item>Mckissick Theatre</item>
+        <item>HSC Atrium</item>
+        <item>HSC Arcade</item>
+        <item>HSC Outdoor Plaza</item>
+        <item>HSC Outdoor Breezeway</item>
+        <item>Lever Beach (Baby Bowman)</item>
+        <item>Union Plaza</item>
+        <item>Union Courtyard</item>
+        <item>Palmetto Ballroom (Union)</item>
+        <item>Senate Chambers (Union)</item>
+        <item>Student Org Conf. Room (Union)</item>
+        <item>Cox Plaza</item>
+        <item>Union Loggia</item>
+    </string-array>
+
+    <string name="select_organization_label">Select Organization</string>
+    <string name="event_name_label">Event Name</string>
+    <string name="start_time_label">Start Time</string>
+    <string name="end_time_label">End Time</string>
+    <string name="location_label">Selected Venue Will Appear Here</string>
+    <string name="location_button_label">Select Venue</string>
+    <string name="chair_label">Chairs</string>
+    <string name="rectangle_table_8">8 Foot Rectangle Table</string>
+    <string name="rectangle_table_6">6 Foot Rectangle Table</string>
+    <string name="round_table_label">Round Table</string>
+    <string name="cocktail_table_label">Cocktail Tables</string>
+    <string name="conference_table_label">Conference Tables</string>
+    <string name="floor_podium_label">Floor Podium - IN HOUSE</string>
+    <string name="podium_label">Podium - In House</string>
+    <string name="dance_floor_1_label">Dance Floor (1-25 sections)</string>
+    <string name="dance_floor_2_label">Dance Floor (26-100 sections)</string>
+    <string name="dry_chart_label">Dry Erase/Flip Chart Stand</string>
+    <string name="portable_board_label">Portable Large Dry Erase Board</string>
+    <string name="flip_chart_label">Flip Chart Pad</string>
+    <string name="sage_label">Stage (4x8 sections)</string>
+    <string name="easel_label">Easel</string>
+    <string name="pipe_drape_label">Pipe and Drape</string>
+    <string name="plants_label">Plants</string>
+    <string name="linen_label">Linens</string>
+    <string name="conference_projector">LCD Projector w/ Screen (Conference Room)</string>
+    <string name="house_sound_label">House Sound w/ 2 Microphones</string>
+    <string name="lcd_indoor_label">LCD Projector - Indoor</string>
+    <string name="concert_lights_label">Concert Lights in House</string>
+    <string name="tv_label">TV/VCR or TV/DVD</string>
+    <string name="projector_screen_label">Projector Screen Only - Indoor</string>
+    <string name="small_pa_label">Small Portable Sound System</string>
+    <string name="sound_inputs_label">House Sound w/ 5 Inputs</string>
+    <string name="attendance_checkbox_label">Attendance Over 200</string>
+    <string name="alcohol_checkbox_label">Event With Alcohol</string>
+    <string name="money_checkbox_label">Event Charging Admission</string>
+    <string name="after_hours_checkbox_label">Extends Past 11PM</string>
+    <string name="catering_checkbox_label">Event with CU Catering </string>
+    <string name="food_checkbox_label">Events Bringing Outside Food</string>
+    <string name="outdoor_checkbox_label">On Landscaped Area</string>
+    <string name="tshirt_checkbox_label">T-Shirt Sales - Athletic Themed</string>
+    <string name="paw_checkbox_label">Uses Tiger Paw</string>
+    <string name="fire_checkbox_label">Event with Open Flame</string>
+    <string name="planner_checkbox_label">Request Event Planner</string>
+    <string name="guests_checkbox_label">Open to Non-University Guests</string>
+    <string name="title_activity_login">Modify Login Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="firstname_label">First Name</string>
+    <string name="middleinitial_label">Middle Initial</string>
+    <string name="lastname_label">Last Name</string>
+    <string name="email_label">Email Address</string>
+    <string name="number1_label">Contact Number 1</string>
+    <string name="number2_label">Contact Number 2</string>
+    <string name="address1_label">Address Line 1</string>
+    <string name="address2_label">Address Line 2</string>
+    <string name="city_label">City</string>
+    <string name="state_label">State</string>
+    <string name="zipcode_label">Zip Code</string>
+    <string name="title_activity_contact">Contact CU HSC</string>
+    <string name="title_activity_solicitation">Sales and Solicitation</string>
+    <string name="title_activity_directions">Directions to HSC</string>
+    <string name="atlanta_textview_label">From Atlanta</string>
+    <string name="asheville_textview_label">From Asheville</string>
+    <string name="columbia_textview_label">From Columbia</string>
+    <string name="charlotte_textview_label">From Charlotte</string>
+    <string name="title_activity_policies">PoliciesActivity</string>
+    <string name="how_many_label">How Many?</string>
+    <string name="title_activity_view_reservations">ViewReservationsActivity</string>
+    <string name="financial_name_label">Financially Responsible Party\'s Name</string>
+    <string name="financial_email_label">Financially Responsible Party\'s Email</string>
+
+</resources>

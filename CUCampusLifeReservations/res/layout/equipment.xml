@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/equipment_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/conference_projector_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conference_projector" />
+
+        <CheckBox
+            android:id="@+id/house_sound_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/house_sound_label" />
+
+        <CheckBox
+            android:id="@+id/projector_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lcd_indoor_label" />
+
+        <CheckBox
+            android:id="@+id/concert_lights_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/concert_lights_label" />
+
+        <CheckBox
+            android:id="@+id/tv_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_label" />
+
+        <CheckBox
+            android:id="@+id/screen_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/projector_screen_label" />
+
+        <CheckBox
+            android:id="@+id/pa_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/small_pa_label" />
+
+        <CheckBox
+            android:id="@+id/house_inputs_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sound_inputs_label" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/guests_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guests_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/attendance_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attendance_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/alcohol_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alcohol_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/money_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/money_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/catering_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/catering_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/food_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/outdoor_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/outdoor_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/planner_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/planner_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/after_hours_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/after_hours_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/paw_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paw_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/tshirt_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tshirt_checkbox_label" />
+
+        <CheckBox
+            android:id="@+id/fire_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fire_checkbox_label" />
+
+    </LinearLayout>
+
+</ScrollView>
