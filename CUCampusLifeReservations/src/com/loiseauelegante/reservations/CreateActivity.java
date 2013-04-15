@@ -707,7 +707,7 @@ public class CreateActivity extends FragmentActivity {
 		private void SendReservationEmail(String email_string, String emails) {
 			Intent i = new Intent(Intent.ACTION_SEND);
 			i.setType("message/rfc822");
-			i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"natasha.loiseau@gmail.com", emails});
+			i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"reserve@clemson.edu", emails});
 			i.putExtra(Intent.EXTRA_CC, emails);
 			i.putExtra(Intent.EXTRA_SUBJECT, "New Reservation from CU Reservations Android Application");
 			i.putExtra(Intent.EXTRA_TEXT   , email_string);
